@@ -6,10 +6,9 @@
 //  Copyright (c) 2014 Xeasony. All rights reserved.
 //
 
-#include <iostream>
+#include "ATM.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    ATM atm;
+    atm.run();
 }

@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		627E500E1A21CBF0002BD870 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 627E500D1A21CBF0002BD870 /* main.cpp */; };
+		627E50161A21CC0E002BD870 /* Screen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 627E50141A21CC0E002BD870 /* Screen.cpp */; };
+		627E50191A21CE18002BD870 /* Keypad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 627E50171A21CE18002BD870 /* Keypad.cpp */; };
+		627E501C1A21CF99002BD870 /* CashDispenser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 627E501A1A21CF99002BD870 /* CashDispenser.cpp */; };
+		627E501F1A21D2D1002BD870 /* DepositSlot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 627E501D1A21D2D1002BD870 /* DepositSlot.cpp */; };
+		627E50221A21D463002BD870 /* Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 627E50201A21D463002BD870 /* Account.cpp */; };
+		627E50251A21DA6D002BD870 /* BankDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 627E50231A21DA6D002BD870 /* BankDatabase.cpp */; };
+		627E50281A21E939002BD870 /* Transaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 627E50261A21E939002BD870 /* Transaction.cpp */; };
+		627E50311A21ECB8002BD870 /* BalanceInquiry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 627E502F1A21ECB8002BD870 /* BalanceInquiry.cpp */; };
+		627E50341A21F043002BD870 /* ATM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 627E50321A21F043002BD870 /* ATM.cpp */; };
+		627E50371A220ED3002BD870 /* Withdrawal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 627E50351A220ED3002BD870 /* Withdrawal.cpp */; };
+		627E503A1A222C20002BD870 /* Deposit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 627E50381A222C20002BD870 /* Deposit.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +36,28 @@
 /* Begin PBXFileReference section */
 		627E500A1A21CBF0002BD870 /* ATM */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ATM; sourceTree = BUILT_PRODUCTS_DIR; };
 		627E500D1A21CBF0002BD870 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		627E50141A21CC0E002BD870 /* Screen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Screen.cpp; sourceTree = "<group>"; };
+		627E50151A21CC0E002BD870 /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
+		627E50171A21CE18002BD870 /* Keypad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Keypad.cpp; sourceTree = "<group>"; };
+		627E50181A21CE18002BD870 /* Keypad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keypad.h; sourceTree = "<group>"; };
+		627E501A1A21CF99002BD870 /* CashDispenser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CashDispenser.cpp; sourceTree = "<group>"; };
+		627E501B1A21CF99002BD870 /* CashDispenser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashDispenser.h; sourceTree = "<group>"; };
+		627E501D1A21D2D1002BD870 /* DepositSlot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DepositSlot.cpp; sourceTree = "<group>"; };
+		627E501E1A21D2D1002BD870 /* DepositSlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepositSlot.h; sourceTree = "<group>"; };
+		627E50201A21D463002BD870 /* Account.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Account.cpp; sourceTree = "<group>"; };
+		627E50211A21D463002BD870 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		627E50231A21DA6D002BD870 /* BankDatabase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BankDatabase.cpp; sourceTree = "<group>"; };
+		627E50241A21DA6D002BD870 /* BankDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankDatabase.h; sourceTree = "<group>"; };
+		627E50261A21E939002BD870 /* Transaction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transaction.cpp; sourceTree = "<group>"; };
+		627E50271A21E939002BD870 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		627E502F1A21ECB8002BD870 /* BalanceInquiry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BalanceInquiry.cpp; sourceTree = "<group>"; };
+		627E50301A21ECB8002BD870 /* BalanceInquiry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalanceInquiry.h; sourceTree = "<group>"; };
+		627E50321A21F043002BD870 /* ATM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ATM.cpp; sourceTree = "<group>"; };
+		627E50331A21F043002BD870 /* ATM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATM.h; sourceTree = "<group>"; };
+		627E50351A220ED3002BD870 /* Withdrawal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Withdrawal.cpp; sourceTree = "<group>"; };
+		627E50361A220ED3002BD870 /* Withdrawal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Withdrawal.h; sourceTree = "<group>"; };
+		627E50381A222C20002BD870 /* Deposit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Deposit.cpp; sourceTree = "<group>"; };
+		627E50391A222C20002BD870 /* Deposit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deposit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,28 @@
 			isa = PBXGroup;
 			children = (
 				627E500D1A21CBF0002BD870 /* main.cpp */,
+				627E50141A21CC0E002BD870 /* Screen.cpp */,
+				627E50151A21CC0E002BD870 /* Screen.h */,
+				627E50171A21CE18002BD870 /* Keypad.cpp */,
+				627E50181A21CE18002BD870 /* Keypad.h */,
+				627E501A1A21CF99002BD870 /* CashDispenser.cpp */,
+				627E501B1A21CF99002BD870 /* CashDispenser.h */,
+				627E501D1A21D2D1002BD870 /* DepositSlot.cpp */,
+				627E501E1A21D2D1002BD870 /* DepositSlot.h */,
+				627E50201A21D463002BD870 /* Account.cpp */,
+				627E50211A21D463002BD870 /* Account.h */,
+				627E50231A21DA6D002BD870 /* BankDatabase.cpp */,
+				627E50241A21DA6D002BD870 /* BankDatabase.h */,
+				627E50261A21E939002BD870 /* Transaction.cpp */,
+				627E50271A21E939002BD870 /* Transaction.h */,
+				627E502F1A21ECB8002BD870 /* BalanceInquiry.cpp */,
+				627E50301A21ECB8002BD870 /* BalanceInquiry.h */,
+				627E50321A21F043002BD870 /* ATM.cpp */,
+				627E50331A21F043002BD870 /* ATM.h */,
+				627E50351A220ED3002BD870 /* Withdrawal.cpp */,
+				627E50361A220ED3002BD870 /* Withdrawal.h */,
+				627E50381A222C20002BD870 /* Deposit.cpp */,
+				627E50391A222C20002BD870 /* Deposit.h */,
 			);
 			path = ATM;
 			sourceTree = "<group>";
@@ -118,7 +173,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627E50341A21F043002BD870 /* ATM.cpp in Sources */,
+				627E50251A21DA6D002BD870 /* BankDatabase.cpp in Sources */,
 				627E500E1A21CBF0002BD870 /* main.cpp in Sources */,
+				627E50221A21D463002BD870 /* Account.cpp in Sources */,
+				627E501F1A21D2D1002BD870 /* DepositSlot.cpp in Sources */,
+				627E50311A21ECB8002BD870 /* BalanceInquiry.cpp in Sources */,
+				627E50371A220ED3002BD870 /* Withdrawal.cpp in Sources */,
+				627E50161A21CC0E002BD870 /* Screen.cpp in Sources */,
+				627E503A1A222C20002BD870 /* Deposit.cpp in Sources */,
+				627E501C1A21CF99002BD870 /* CashDispenser.cpp in Sources */,
+				627E50281A21E939002BD870 /* Transaction.cpp in Sources */,
+				627E50191A21CE18002BD870 /* Keypad.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
